@@ -5,7 +5,7 @@ haar_cascade = cv.CascadeClassifier("Face Detection\haarcascade_face.xml")
 # features = np.load("features.npy", allow_pickle = True)
 # labels = np.load("labels.npy")
 
-people = ["Katrina Kaif","Wahaj Ali","Virat Kohli"]
+people = ["ABC","Wahaj PQR","XYZ"]
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read("face_trained.yml")
