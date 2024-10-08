@@ -5,7 +5,7 @@ haar_cascade = cv.CascadeClassifier("Face Detection\haarcascade_face.xml")
 # features = np.load("features.npy", allow_pickle = True)
 # labels = np.load("labels.npy")
 
-people = ["ABC","Wahaj PQR","XYZ"]
+people = ["ABC","PQR","XYZ"]
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read("face_trained.yml")
