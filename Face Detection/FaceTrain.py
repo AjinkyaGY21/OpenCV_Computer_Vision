@@ -2,7 +2,7 @@ import os
 import cv2 as cv
 import numpy as np
 
-people = ["Katrina Kaif","Wahaj Ali","Virat Kohli"]
+people = ["ABC","XYZ","PQR"]
 haar_cascade = cv.CascadeClassifier("Face Detection\haarcascade_face.xml")
 # p = []
 # for i in os.listdir(r"Face Detection\imgs"):
